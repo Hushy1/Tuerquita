@@ -14,11 +14,6 @@ Public Class Form1
 
         Usuario = TextBox1.Text.Trim
         Contraseña = TextBox2.Text.Trim
-
-        'comando = "exec [login] @usuario = " + Usuario + ", @contrasena = " + Contraseña
-
-        'conexion.execute(comando)
-
         comando = "select puesto_u from usuarios where usuario = '" + Usuario + "' and contraseña_u = '" + Contraseña + "'"
 
         resultado = conexion.read(comando)
@@ -38,5 +33,9 @@ Public Class Form1
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
         End
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

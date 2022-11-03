@@ -23,7 +23,6 @@ Public Class Form6
 
         comando = "Insert Into Usuarios
                     Values ('" + usuario.Text + "', '" + nombre.Text + "', '" + contraseña.Text + "','" + car.ToString() + "')"
-        'resultado =
         conexion.read(comando)
 
     End Sub

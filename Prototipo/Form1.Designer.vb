@@ -29,8 +29,8 @@ Partial Class Form1
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.btnIngresar = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btnSalir = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -92,15 +92,6 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(390, 38)
         Me.Panel1.TabIndex = 8
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.Prototipo.My.Resources.Resources._1499345621_contact_85338
-        Me.PictureBox2.Location = New System.Drawing.Point(124, 44)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(128, 130)
-        Me.PictureBox2.TabIndex = 10
-        Me.PictureBox2.TabStop = False
-        '
         'btnSalir
         '
         Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -110,6 +101,15 @@ Partial Class Form1
         Me.btnSalir.Size = New System.Drawing.Size(62, 38)
         Me.btnSalir.TabIndex = 7
         Me.btnSalir.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Prototipo.My.Resources.Resources._1499345621_contact_85338
+        Me.PictureBox2.Location = New System.Drawing.Point(124, 44)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(128, 130)
+        Me.PictureBox2.TabIndex = 10
+        Me.PictureBox2.TabStop = False
         '
         'Form1
         '

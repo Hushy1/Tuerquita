@@ -24,12 +24,17 @@ Public Class Form6
         End If
 
         comando = "Insert Into Usuario (Usuario, Nombre_U, Contaseña_U, Puesto_U
-                    Values ('" + usuario.Text + "', '" + nombre.Text + "', '" + contraseña.Text + "','" + car + "'"
-        resultado = conexion.read(comando)
+                    Values ('" + usuario.Text + "', '" + nombre.Text + "', '" + contraseña.Text + "','" + car.ToString() + "'"
+        'resultado =
+        conexion.read(comando)
 
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

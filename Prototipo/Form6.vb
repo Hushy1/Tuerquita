@@ -10,11 +10,9 @@ Public Class Form6
         Me.Hide()
         Form1.Show()
     End Sub
-
     Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click
         End
     End Sub
-
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         If ComboBox1.Text() = "Gerente" Then
             car = 1
@@ -23,8 +21,8 @@ Public Class Form6
             car = 0
         End If
 
-        comando = "Insert Into Usuario (Usuario, Nombre_U, Contaseña_U, Puesto_U
-                    Values ('" + usuario.Text + "', '" + nombre.Text + "', '" + contraseña.Text + "','" + car.ToString() + "'"
+        comando = "Insert Into Usuarios
+                    Values ('" + usuario.Text + "', '" + nombre.Text + "', '" + contraseña.Text + "','" + car.ToString() + "')"
         'resultado =
         conexion.read(comando)
 
